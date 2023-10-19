@@ -1,5 +1,6 @@
 {
 	"author": "Ivan Ashikhmin",
+	"description": "A project that teaches me the ability to make meaningful contributions to software projects",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
