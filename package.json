@@ -2,6 +2,11 @@
 	"author": "Ivan Ashikhmin",
 	"description": "A project that teaches me the ability to make meaningful contributions to software projects",
 	"name": "fcc-learn-npm-package-json",
+	"keywords": [
+		"Ivan Ashikhmin",
+		"freecodecamp",
+		"Learn to be a Programmer"
+	],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
