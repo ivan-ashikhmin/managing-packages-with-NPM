@@ -2,6 +2,7 @@
 	"author": "Ivan Ashikhmin",
 	"description": "A project that teaches me the ability to make meaningful contributions to software projects",
 	"name": "fcc-learn-npm-package-json",
+	"license": "MIT",
 	"keywords": [
 		"Ivan Ashikhmin",
 		"freecodecamp",
