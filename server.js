@@ -56,7 +56,7 @@ if (!process.env.DISABLE_XORIGIN) {
 // })
 
 app.get("/", function (req, res) {
-  res.send("Hello Express");
+  res.sendFile(__dirname + "/views/index.html");
 });
 
 //Listen on port set in environment variable or default to 3000
@@ -64,3 +64,5 @@ var port = process.env.PORT || 3000;
 bGround.setupBackgroundApp(app, myApp, __dirname).listen(port, function () {
   bGround.log('Node.js listening on port' + port + "...");
 });
+
+
