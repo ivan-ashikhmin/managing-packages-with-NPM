@@ -9,24 +9,22 @@ var bGround = require('fcc-express-bground');
 /** 1) Meet the node console. */
 bGround.log("Hello World");
 console.log("Hello World");
-
 /** 2) A first working Express Server */
 
 
 /** 3) Serve an HTML file */
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
     res.sendFile(__dirname + "/views/index.html");
 });
-
 /** 4) serve JSON on a specific  */
 app.use(express.static(__dirname + "/public"));
 app.use('/public', express.static(__dirname + "/public"))
-
 /** 5) serve JSON on a specific  */
-app.get("/json", function (req, res) {
-    res.json({ "message": "Hello json" });
+app.get("/json", (req, res) => {
+    res.json(
+        { "message": "Hello json" }
+    );
 });
-
 /** 6) Use the .env file to configure the app  */
 
 /** 7) Root-level Middleware - A logger */
